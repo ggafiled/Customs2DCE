@@ -3,3 +3,7 @@
 # Customs2DCE
 
 Portable program assist you convert tariff code file from thai customs to dhl DCE system format
+
+## Build
+use this command for build exe ``` pyinstaller --windowed --icon=icon.ico --add-data="resource/*;resource/" Customs2DCE.py ```
+and use Enigma Virtual Box to pack it to portable
